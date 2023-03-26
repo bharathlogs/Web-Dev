@@ -1,0 +1,35 @@
+.about {
+  padding: 5rem 10rem;
+  background-color: #3f43fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2re;
+}
+.about-img {
+  width: 32rem;
+}
+.about-content {
+  color: #fff;
+  font-family: "poppins";
+  margin-left: 1.5rem;
+}
+.about-title {
+  font-size: 2.4rem;
+}
+.about-desc {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  color: #cfcfcf;
+}
+.ab-ta {
+  font-size: 1rem;
+}
+
+.lt {
+  color: #fff;
+  text-transform: lowercase;
+}
+.lt:hover {
+  text-shadow: 10px 20px 30px black;
+}

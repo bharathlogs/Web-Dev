@@ -10,6 +10,9 @@
 /* Background Elements*/
 @import url(bg-elements.css);
 
+/* About */
+@import url(about.css);
+
 * {
   padding: 0;
   margin: 0;
