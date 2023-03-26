@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  padding: 0.9rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+}
+.header-logo {
+  font-family: "poppins";
+  margin-left: 4.5rem;
+  font-weight: 100;
+}
+
+.font-dev {
+  font-family: "Merriweather";
+  font-weight: 900;
+  cursor: pointer;
+}
+.color-anim {
+  animation: color-change 10s infinite;
+  transform: 200ms;
+}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.header-menu {
+  display: flex;
+  margin-left: 15rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-menu-item {
+  margin-right: 25px;
+  font-family: "poppins";
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+}
+.btn {
+  padding: 0.3rem 1.3rem;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #3f43fd;
+  border-radius: 16px;
+  outline: none;
+  line-height: 1;
+}
+.btn-primary {
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #3135e8;
+}
+a {
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: #3f43fd;
+}
+.a-hover:hover {
+  color: #3135e8;
+}

@@ -1,0 +1,66 @@
+.hero-area {
+  display: flex;
+  padding: 5rem 10rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-content {
+  max-width: 55rem;
+}
+
+.hero-title {
+  font-family: "poppins";
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.hero-desc {
+  font-family: "poppins";
+  font-size: 1.5;
+  line-height: 1.5;
+  color: rgb(159, 149, 149);
+}
+
+.hero-wf-btn {
+  padding: 0.5rem 1rem;
+  margin-top: 8px;
+  font-weight: 600;
+  font-family: "poppins";
+  font-size: 10px;
+  text-transform: uppercase;
+  background-color: #3f43fd;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  line-height: 1;
+  cursor: pointer;
+}
+.hero-lm-btn {
+  padding: 0.5rem 1rem;
+  margin-top: 8px;
+  font-weight: 600;
+  font-family: "poppins";
+  font-size: 10px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #3f43fd;
+  border-radius: 6px;
+  outline: none;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.hero-lm-btn:hover {
+  background-color: #3f43fd;
+  border: 1px solid #3135e8;
+  color: #fff;
+}
+
+.vid-cam,
+.book-opn {
+  margin-right: 5px;
+}
+.web-design-illustration {
+  margin-right: 15px;
+}
