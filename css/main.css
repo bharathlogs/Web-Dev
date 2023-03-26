@@ -7,6 +7,9 @@
 /*Hero-Section*/
 @import url(hero.css);
 
+/* Background Elements*/
+@import url(bg-elements.css);
+
 * {
   padding: 0;
   margin: 0;
