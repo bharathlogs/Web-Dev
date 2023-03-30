@@ -1,0 +1,105 @@
+.roadmap {
+  padding: 5rem 10rem;
+}
+
+.roadmap-heading {
+  text-align: center;
+  line-height: 2;
+}
+.roadmap-heading-p {
+  font-family: "Maven Pro", sans-serif;
+}
+.roadmap-heading-h {
+  font-family: "poppins";
+  font-size: 1.5rem;
+}
+.line {
+  width: 5rem;
+  height: 0.4rem;
+  background: linear-gradient(to right, #e24997, #2d2ed4);
+  border-radius: 8px;
+  margin: 30px auto;
+}
+
+.roadmap-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roadmap-item {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 350px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 400ms;
+}
+.roadmap-item:hover {
+  filter: grayscale(0%);
+}
+.roadmap-items-img::after:hover {
+  animation: rotate-round 4000ms linear infinite;
+}
+@keyframes rotate-round {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.roadmap-items-img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 30px;
+}
+
+.logo-img {
+  position: relative;
+  width: 5 5px;
+  margin-top: 25px;
+}
+
+.roadmap-items-img::after {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 3.5px dotted black;
+  border-radius: 50%;
+}
+
+.roadmap-img-desc {
+  font-weight: 300;
+}
+.roadmap-img-desc::before {
+  position: absolute;
+  top: 25%;
+  right: -15%;
+  content: "";
+  width: 70px;
+  height: 70px;
+  font-family: "font awesome 5 free";
+  font-size: 3rem;
+  font-weight: 600;
+  z-index: 1;
+  line-height: 1;
+  color: #020702;
+  cursor: pointer;
+}
+.roadmap-img-desc-h {
+  font-family: "poppins";
+  color: rgb(41, 40, 40);
+  font-family: "";
+}
+.roadmap-img-desc-p {
+  font-family: "Maven Pro", sans-serif;
+  margin-top: 0.5rem;
+  color: gray;
+}
