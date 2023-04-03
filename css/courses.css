@@ -1,0 +1,48 @@
+.courses {
+  padding: 5rem 10rem;
+  background-color: #5759f9;
+}
+
+.courses-head {
+  text-align: center;
+  font-family: "poppins";
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.courses-items {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.courses-item {
+  max-width: 360px;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-right: 50px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.courses-item:hover {
+  box-shadow: 2px 2px 20px 5px rgba(54, 54, 54, 0.5);
+}
+.courses-img {
+  width: 280px;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 12px 12px 0 0;
+}
+
+.courses-desc {
+  margin: 20px;
+  font-family: "poppins";
+  font-size: 0.8rem;
+}
+
+.courses-info {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: rgb(212, 193, 193);
+}

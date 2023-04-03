@@ -18,6 +18,9 @@
 /* Roadmap */
 @import url(roadmap.css);
 
+/* Courses */
+@import url(courses.css);
+
 * {
   padding: 0;
   margin: 0;
