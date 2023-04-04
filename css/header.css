@@ -1,9 +1,9 @@
 .header {
-  display: flex;
   padding: 0.9rem 3rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 .header-logo {
   font-family: "poppins";

@@ -1,0 +1,60 @@
+.contact {
+  padding: 5rem 10rem;
+
+  background-color: rgb(219, 218, 218);
+}
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 2rem 3rem 4rem;
+  border-radius: 15px;
+  background-color: #fff;
+  line-height: 2;
+}
+.contact-card-header {
+  font-family: "poppins", sans-serif;
+}
+.con-p {
+  color: rgb(159, 158, 158);
+  font-size: 13px;
+}
+#contact-details {
+  width: 100%;
+  height: 25px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 3px;
+  font-family: "poppins", sans-serif;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+#contact-message {
+  width: 100;
+  height: auto;
+  background-color: rgb(237, 237, 237);
+  border-radius: 3px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-family: "poppins";
+  font-size: 10px;
+  font-weight: 500;
+}
+#contact-submit {
+  width: 5rem;
+  height: 2rem;
+  background-color: #3f43fd;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.contact-img {
+  width: 30rem;
+  position: absolute;
+  top: 0;
+  left: 28rem;
+}
