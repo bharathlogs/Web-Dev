@@ -1,0 +1,16 @@
+.footer {
+  padding: 3rem 7rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5;
+  background-color: #3f43fd;
+}
+.footer-contents {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+}
+.footer-head {
+  font-size: 25px;
+  font-family: "Merriweather";
+}

@@ -21,6 +21,7 @@
   font-size: 13px;
 }
 #contact-details {
+  padding: 0.5rem 1rem;
   width: 100%;
   height: 25px;
   background-color: rgb(237, 237, 237);
@@ -30,8 +31,11 @@
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: groove;
+  border: none;
+  outline: none;
 }
 #contact-message {
+  padding: 0.5rem 1rem;
   width: 100;
   height: auto;
   background-color: rgb(237, 237, 237);
